@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    padding-bottom: 100%;
+    width: 100%;
+}
+
+ul:after {
+    content: ""; 
+    display: block; 
+    clear: both 
+}
+
+ul {
+    zoom: 1;
+     /* 启用弹性盒布局 */
+    display: flex;
+    /* 使子元素水平居中 */
+    justify-content: center;
+    /* 使子元素垂直居中 */
+    align-items: center;
+}
+
+li {
+
+    float: left;
+    margin: 1%;
+    /*外边距*/
+    padding-bottom: 30%;
+
+    /*下内边距*/
+    width: 30%;
+
+    /*宽度*/
+    height: 0;
+
+    /*高度*/
+    background-color: #EEB422;
+
+    border-radius: 10px;
+
+}
