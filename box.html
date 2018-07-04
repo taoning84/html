@@ -12,76 +12,107 @@
         }
 
         .box {
-            float: left;
-            /*左边 浮动*/
-            margin: 5%;
-            /*外边距*/
-            padding-bottom: 90%;
-            /*下内边距*/
-            width: 90%;
-            /*宽度*/
-            height: 0;
-            /*高度*/
-            
+            padding-bottom: 100%;
+            width: 100%;
+        }
+
+        ul:after {
+            content: ""; 
+            display: block; 
+            clear: both 
         }
 
         ul {
-            float: none;
-            /*左边 浮动*/
-            margin: 0;
-            /*外边距*/
-            padding-bottom: 33.33%;
-            /*下内边距*/
-            width: 100%;
-            /*宽度*/
-            height: 0;
-            /*高度*/
-            
+            zoom: 1;
+             /* 启用弹性盒布局 */
+            display: flex;
+            /* 使子元素水平居中 */
+            justify-content: center;
+            /* 使子元素垂直居中 */
+            align-items: center;
         }
 
         li {
-            display: inline-flex;
-            margin: 1.86%;
+
+            float: left;
+            margin: 1%;
             /*外边距*/
-            padding-bottom: 29%;
+            padding-bottom: 30%;
+
             /*下内边距*/
-            width: 29%;
+            width: 30%;
+
             /*宽度*/
             height: 0;
+
             /*高度*/
             background-color: #EEB422;
-            border-radius:10px;
+
+            border-radius: 10px;
+
         }
     </style>
+
 </head>
 
+
+
 <body>
+
     <div class="box">
+
         <ul>
+
             <li>
+
             </li>
+
             <li>
+
             </li>
+
             <li>
+
             </li>
+
         </ul>
+
         <ul>
+
             <li>
+
             </li>
+
             <li>
+
             </li>
+
             <li>
+
             </li>
+
         </ul>
+
         <ul>
+
             <li>
+
             </li>
+
             <li>
+
             </li>
+
             <li>
+
             </li>
+
         </ul>
+
     </div>
+
 </body>
+
+
 
 </html>
